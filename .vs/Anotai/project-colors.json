@@ -5,7 +5,22 @@
       "ProjectGuid": "4d3e8e70-ff9c-4af4-ac5d-3831e5a755cb",
       "DisplayName": "Anotai.API",
       "ColorIndex": 0
+    },
+    "b1875f78-b44f-4a98-88f6-9d2c1c0905f7": {
+      "ProjectGuid": "b1875f78-b44f-4a98-88f6-9d2c1c0905f7",
+      "DisplayName": "Anotai.Application",
+      "ColorIndex": 1
+    },
+    "89408f0a-7999-448b-9dcd-69518c5194c9": {
+      "ProjectGuid": "89408f0a-7999-448b-9dcd-69518c5194c9",
+      "DisplayName": "Anotai.Data",
+      "ColorIndex": 2
+    },
+    "f75a2d7b-3bf4-4556-8245-8dcd056a98fa": {
+      "ProjectGuid": "f75a2d7b-3bf4-4556-8245-8dcd056a98fa",
+      "DisplayName": "Anotai.Domain",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }

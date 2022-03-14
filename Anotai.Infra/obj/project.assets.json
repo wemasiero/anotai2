@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\Anotai\\Anotai.Infra\\Anotai.Infra.csproj",
-      "projectName": "Anotai.Infra",
-      "projectPath": "C:\\dev\\Anotai\\Anotai.Infra\\Anotai.Infra.csproj",
+      "projectUniqueName": "C:\\dev\\Anotai\\Anotai.Infra\\Anotai.Data.csproj",
+      "projectName": "Anotai.Data",
+      "projectPath": "C:\\dev\\Anotai\\Anotai.Infra\\Anotai.Data.csproj",
       "packagesPath": "C:\\Users\\Wanderson\\.nuget\\packages\\",
       "outputPath": "C:\\dev\\Anotai\\Anotai.Infra\\obj\\",
       "projectStyle": "PackageReference",
