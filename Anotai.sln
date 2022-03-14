@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anotai.API", "Anotai.API\Anotai.API.csproj", "{4D3E8E70-FF9C-4AF4-AC5D-3831E5A755CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web", "1 - Web", "{6D1BBD25-670E-40EB-9B63-2CBC69C83F8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{A7F51574-C013-42F5-90E5-8AEEFD0ED21D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{535C8F1F-79BA-414A-A14F-7E76C09B49F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{E488039A-1026-4398-A757-42B9F851597E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D3E8E70-FF9C-4AF4-AC5D-3831E5A755CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D3E8E70-FF9C-4AF4-AC5D-3831E5A755CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D3E8E70-FF9C-4AF4-AC5D-3831E5A755CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D3E8E70-FF9C-4AF4-AC5D-3831E5A755CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D3E8E70-FF9C-4AF4-AC5D-3831E5A755CB} = {6D1BBD25-670E-40EB-9B63-2CBC69C83F8E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24A5DBED-F19C-4D2F-B55B-0D946B02506E}
+	EndGlobalSection
+EndGlobal
