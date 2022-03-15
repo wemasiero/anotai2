@@ -1,0 +1,12 @@
+C:\dev\Anotai\Anotai.Application\bin\Debug\net6.0\Anotai.Application.deps.json
+C:\dev\Anotai\Anotai.Application\bin\Debug\net6.0\Anotai.Application.dll
+C:\dev\Anotai\Anotai.Application\bin\Debug\net6.0\ref\Anotai.Application.dll
+C:\dev\Anotai\Anotai.Application\bin\Debug\net6.0\Anotai.Application.pdb
+C:\dev\Anotai\Anotai.Application\obj\Debug\net6.0\Anotai.Application.csproj.AssemblyReference.cache
+C:\dev\Anotai\Anotai.Application\obj\Debug\net6.0\Anotai.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Anotai\Anotai.Application\obj\Debug\net6.0\Anotai.Application.AssemblyInfoInputs.cache
+C:\dev\Anotai\Anotai.Application\obj\Debug\net6.0\Anotai.Application.AssemblyInfo.cs
+C:\dev\Anotai\Anotai.Application\obj\Debug\net6.0\Anotai.Application.csproj.CoreCompileInputs.cache
+C:\dev\Anotai\Anotai.Application\obj\Debug\net6.0\Anotai.Application.dll
+C:\dev\Anotai\Anotai.Application\obj\Debug\net6.0\ref\Anotai.Application.dll
+C:\dev\Anotai\Anotai.Application\obj\Debug\net6.0\Anotai.Application.pdb

@@ -1,8 +1,13 @@
+using Anotai.Data.Context;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddSqlite<AppDbContext>(connectionString);
 
 var app = builder.Build();
 

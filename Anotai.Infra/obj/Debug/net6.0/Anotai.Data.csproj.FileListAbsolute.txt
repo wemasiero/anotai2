@@ -1,0 +1,17 @@
+C:\dev\Anotai\Anotai.Infra\bin\Debug\net6.0\Anotai.Data.deps.json
+C:\dev\Anotai\Anotai.Infra\bin\Debug\net6.0\Anotai.Data.runtimeconfig.json
+C:\dev\Anotai\Anotai.Infra\bin\Debug\net6.0\Anotai.Data.dll
+C:\dev\Anotai\Anotai.Infra\bin\Debug\net6.0\ref\Anotai.Data.dll
+C:\dev\Anotai\Anotai.Infra\bin\Debug\net6.0\Anotai.Data.pdb
+C:\dev\Anotai\Anotai.Infra\bin\Debug\net6.0\Anotai.Domain.dll
+C:\dev\Anotai\Anotai.Infra\bin\Debug\net6.0\Anotai.Domain.pdb
+C:\dev\Anotai\Anotai.Infra\obj\Debug\net6.0\Anotai.Data.csproj.AssemblyReference.cache
+C:\dev\Anotai\Anotai.Infra\obj\Debug\net6.0\Anotai.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Anotai\Anotai.Infra\obj\Debug\net6.0\Anotai.Data.AssemblyInfoInputs.cache
+C:\dev\Anotai\Anotai.Infra\obj\Debug\net6.0\Anotai.Data.AssemblyInfo.cs
+C:\dev\Anotai\Anotai.Infra\obj\Debug\net6.0\Anotai.Data.csproj.CoreCompileInputs.cache
+C:\dev\Anotai\Anotai.Infra\obj\Debug\net6.0\Anotai.Data.csproj.CopyComplete
+C:\dev\Anotai\Anotai.Infra\obj\Debug\net6.0\Anotai.Data.dll
+C:\dev\Anotai\Anotai.Infra\obj\Debug\net6.0\ref\Anotai.Data.dll
+C:\dev\Anotai\Anotai.Infra\obj\Debug\net6.0\Anotai.Data.pdb
+C:\dev\Anotai\Anotai.Infra\obj\Debug\net6.0\Anotai.Data.genruntimeconfig.cache
