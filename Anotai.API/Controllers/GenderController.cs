@@ -1,4 +1,5 @@
 ﻿using Anotai.Application.Interfaces;
+using Anotai.Application.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Anotai.API.Controllers
@@ -19,5 +20,13 @@ namespace Anotai.API.Controllers
         {
             return Ok(_genderService.Get());
         }
+
+        [HttpPost]
+        /*
+        public IActionResult Post(GenderViewModel genderViewModel)
+        {
+            return Ok(_genderService.Post());
+        }
+        */
     }
 }
