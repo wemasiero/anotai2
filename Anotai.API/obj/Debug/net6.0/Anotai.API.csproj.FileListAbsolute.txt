@@ -56,3 +56,7 @@ C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.Data.pdb
 C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.Domain.pdb
 C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Humanizer.dll
 C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.Application.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.Application.pdb
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.IoC.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.IoC.pdb

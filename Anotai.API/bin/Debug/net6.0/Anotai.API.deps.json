@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "Anotai.API/1.0.0": {
         "dependencies": {
+          "Anotai.Application": "1.0.0",
           "Anotai.Data": "1.0.0",
+          "Anotai.IoC": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "6.0.3",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -357,6 +359,14 @@
           "System.Text.Encodings.Web": "6.0.0"
         }
       },
+      "Anotai.Application/1.0.0": {
+        "dependencies": {
+          "Anotai.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Anotai.Application.dll": {}
+        }
+      },
       "Anotai.Data/1.0.0": {
         "dependencies": {
           "Anotai.Domain": "1.0.0",
@@ -370,6 +380,17 @@
       "Anotai.Domain/1.0.0": {
         "runtime": {
           "Anotai.Domain.dll": {}
+        }
+      },
+      "Anotai.IoC/1.0.0": {
+        "dependencies": {
+          "Anotai.Application": "1.0.0",
+          "Anotai.Data": "1.0.0",
+          "Anotai.Domain": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "Anotai.IoC.dll": {}
         }
       }
     }
@@ -632,12 +653,22 @@
       "path": "system.text.json/6.0.0",
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
     },
+    "Anotai.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Anotai.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "Anotai.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Anotai.IoC/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

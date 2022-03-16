@@ -1,4 +1,5 @@
 using Anotai.Data.Context;
+using Anotai.IoC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,7 @@ builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddSqlite<AppDbContext>(connectionString);
+NativeInjector.RegisterServices(builder.Services);
 
 var app = builder.Build();
 

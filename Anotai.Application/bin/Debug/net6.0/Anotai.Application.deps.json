@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "Anotai.Application/1.0.0": {
+        "dependencies": {
+          "Anotai.Domain": "1.0.0"
+        },
         "runtime": {
           "Anotai.Application.dll": {}
+        }
+      },
+      "Anotai.Domain/1.0.0": {
+        "runtime": {
+          "Anotai.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Anotai.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Anotai.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
