@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "yu/d+P/pw12uO+4WSFwgP0N9TyewMLHAu7jRgSvqFR/M9NoG91mz6eX0MRA8/XtZTqjE8bZ4mxO3YZPSibMbYA==",
+  "dgSpecHash": "EmtyPRKQ0AMqsnaslbts5RfuTFGvOm6qSryS0MDBQ5h9QE2MkNn4gaxHwN2lMkPK/8ng42svD/8EN0jxSmjDIg==",
   "success": true,
   "projectFilePath": "C:\\dev\\Anotai\\Anotai.Application\\Anotai.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Wanderson\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Wanderson\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Wanderson\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Wanderson\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Wanderson\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Wanderson\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Wanderson\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -2,7 +2,7 @@
 
 namespace Anotai.Domain.Interfaces
 {
-    public interface IGenderRepository
+    public interface IGenderRepository : IRepository<Gender>
     {
         IEnumerable<Gender> GetAll();
     }

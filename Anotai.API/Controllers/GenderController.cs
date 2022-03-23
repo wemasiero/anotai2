@@ -16,17 +16,34 @@ namespace Anotai.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult GetAll()
         {
-            return Ok(_genderService.Get());
+            return Ok(_genderService.GetAll());
         }
 
         [HttpPost]
-        /*
         public IActionResult Post(GenderViewModel genderViewModel)
         {
-            return Ok(_genderService.Post());
+            return Ok(_genderService.Post(genderViewModel));
         }
-        */
+        
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            return Ok(_genderService.GetById(id));
+        }
+
+        [HttpPut]
+        public IActionResult Put(GenderViewModel genderViewModel)
+        {
+            return Ok(_genderService.Put(genderViewModel));
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            return Ok(_genderService.Delete(id));
+        }
+
     }
 }

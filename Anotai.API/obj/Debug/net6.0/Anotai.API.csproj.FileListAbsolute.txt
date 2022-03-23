@@ -60,3 +60,5 @@ C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.Application.dll
 C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.Application.pdb
 C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.IoC.dll
 C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.IoC.pdb
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\AutoMapper.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
