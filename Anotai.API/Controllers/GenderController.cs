@@ -20,17 +20,17 @@ namespace Anotai.API.Controllers
         {
             return Ok(_genderService.GetAll());
         }
+     
+        [HttpGet("{id}")]
+        public IActionResult GetById(int id)
+        {
+            return Ok(_genderService.GetById(id));
+        }
 
         [HttpPost]
         public IActionResult Post(GenderViewModel genderViewModel)
         {
             return Ok(_genderService.Post(genderViewModel));
-        }
-        
-        [HttpGet("{id}")]
-        public IActionResult GetById(int id)
-        {
-            return Ok(_genderService.GetById(id));
         }
 
         [HttpPut]

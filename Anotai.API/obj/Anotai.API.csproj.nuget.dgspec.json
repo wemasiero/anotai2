@@ -125,6 +125,9 @@
             "projectReferences": {
               "C:\\dev\\Anotai\\Anotai.Domain\\Anotai.Domain.csproj": {
                 "projectPath": "C:\\dev\\Anotai\\Anotai.Domain\\Anotai.Domain.csproj"
+              },
+              "C:\\dev\\Anotai\\Anotai.Infra\\Anotai.Data.csproj": {
+                "projectPath": "C:\\dev\\Anotai\\Anotai.Infra\\Anotai.Data.csproj"
               }
             }
           }

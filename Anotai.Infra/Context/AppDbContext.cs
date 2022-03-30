@@ -14,6 +14,8 @@ namespace Anotai.Data.Context
         }
 
         public DbSet<Gender> Genders { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Book> Books { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

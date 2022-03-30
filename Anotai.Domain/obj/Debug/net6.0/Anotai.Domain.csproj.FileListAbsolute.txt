@@ -2,7 +2,6 @@ C:\dev\Anotai\Anotai.Domain\bin\Debug\net6.0\Anotai.Domain.deps.json
 C:\dev\Anotai\Anotai.Domain\bin\Debug\net6.0\Anotai.Domain.dll
 C:\dev\Anotai\Anotai.Domain\bin\Debug\net6.0\ref\Anotai.Domain.dll
 C:\dev\Anotai\Anotai.Domain\bin\Debug\net6.0\Anotai.Domain.pdb
-C:\dev\Anotai\Anotai.Domain\obj\Debug\net6.0\Anotai.Domain.csproj.AssemblyReference.cache
 C:\dev\Anotai\Anotai.Domain\obj\Debug\net6.0\Anotai.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\dev\Anotai\Anotai.Domain\obj\Debug\net6.0\Anotai.Domain.AssemblyInfoInputs.cache
 C:\dev\Anotai\Anotai.Domain\obj\Debug\net6.0\Anotai.Domain.AssemblyInfo.cs

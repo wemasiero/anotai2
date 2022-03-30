@@ -26,14 +26,6 @@ namespace Anotai.Application.Services
             return _genderViewModel;
         }
 
-        public bool Post(GenderViewModel genderViewModel)
-        {
-            Gender _gender = _mapper.Map<Gender>(genderViewModel);
-            _genderRepository.Create(_gender);
-
-            return true;
-        }
-
         public GenderViewModel GetById(int id)
         {
             Gender _gender = _genderRepository.Find(x => x.Id == id && !x.IsDeleted);
@@ -42,6 +34,14 @@ namespace Anotai.Application.Services
                 throw new Exception("Not Found!");
 
             return _mapper.Map<GenderViewModel>(_gender);
+        }
+
+        public bool Post(GenderViewModel genderViewModel)
+        {
+            Gender _gender = _mapper.Map<Gender>(genderViewModel);
+            _genderRepository.Create(_gender);
+
+            return true;
         }
 
         public bool Put(GenderViewModel genderViewModel)

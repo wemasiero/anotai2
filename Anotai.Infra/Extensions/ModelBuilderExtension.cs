@@ -7,10 +7,9 @@ namespace Anotai.Data.Extensions
 {
     public static class ModelBuilderExtension
     {
-
-        public static ModelBuilder ApplyGlobalConfiguration(this ModelBuilder builder)
+        public static ModelBuilder ApplyGlobalConfiguration(this ModelBuilder modelbuilder)
         {
-            foreach(IMutableEntityType entityType in builder.Model.GetEntityTypes())
+            foreach (IMutableEntityType entityType in modelbuilder.Model.GetEntityTypes())
             {
                 foreach(IMutableProperty property in entityType.GetProperties())
                 {
@@ -40,12 +39,17 @@ namespace Anotai.Data.Extensions
                 }
             }
 
-            return builder;
+            return modelbuilder;
         }
     
-            public static ModelBuilder SeedData(this ModelBuilder builder)
+            public static ModelBuilder SeedData(this ModelBuilder modelbuilder)
         {
-            builder.Entity<Gender>()
+            modelbuilder.Entity<User>()
+                .HasData(
+                    new User { Id = 1, Name = "master", Email = "wemasiero@gmail.com", Password = "Wand$050483", IsDeleted = false, CreatedAt = DateTime.Now, UpdatedAt = null }
+                ); ;
+
+            modelbuilder.Entity<Gender>()
                 .HasData(
                     new Gender { Id = 1, Description = "AÇÃO E AVENTURA", IsDeleted = false, CreatedAt = DateTime.Now, UpdatedAt = null },
                     new Gender { Id = 2, Description = "ARTE E FOTOGRAFIA", IsDeleted = false, CreatedAt = DateTime.Now, UpdatedAt = null },
@@ -84,7 +88,7 @@ namespace Anotai.Data.Extensions
                     new Gender { Id = 35, Description = "YOUNG ADULT – JOVEM ADULTO", IsDeleted = false, CreatedAt = DateTime.Now, UpdatedAt = null }
                 );
 
-            return builder;
+            return modelbuilder;
         }
     }
 }

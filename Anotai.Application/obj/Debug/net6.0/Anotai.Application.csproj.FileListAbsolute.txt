@@ -13,3 +13,5 @@ C:\dev\Anotai\Anotai.Application\obj\Debug\net6.0\Anotai.Application.pdb
 C:\dev\Anotai\Anotai.Application\bin\Debug\net6.0\Anotai.Domain.dll
 C:\dev\Anotai\Anotai.Application\bin\Debug\net6.0\Anotai.Domain.pdb
 C:\dev\Anotai\Anotai.Application\obj\Debug\net6.0\Anotai.Application.csproj.CopyComplete
+C:\dev\Anotai\Anotai.Application\bin\Debug\net6.0\Anotai.Data.dll
+C:\dev\Anotai\Anotai.Application\bin\Debug\net6.0\Anotai.Data.pdb

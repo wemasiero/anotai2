@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Anotai.Domain\Anotai.Domain.csproj" />
+    <ProjectReference Include="..\Anotai.Infra\Anotai.Data.csproj" />
   </ItemGroup>
 
 </Project>
