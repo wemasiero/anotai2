@@ -30,7 +30,7 @@ namespace Anotai.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT")
-                        .HasDefaultValue(new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(6143));
+                        .HasDefaultValue(new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(65));
 
                     b.Property<string>("Description")
                         .HasColumnType("TEXT");
@@ -81,7 +81,7 @@ namespace Anotai.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT")
-                        .HasDefaultValue(new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(6497));
+                        .HasDefaultValue(new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(497));
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -104,245 +104,245 @@ namespace Anotai.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7005),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1045),
                             Description = "AÇÃO E AVENTURA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7007),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1048),
                             Description = "ARTE E FOTOGRAFIA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7010),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1049),
                             Description = "AUTOAJUDA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7011),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1051),
                             Description = "BIOGRAFIA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7012),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1052),
                             Description = "CONTO",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7014),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1053),
                             Description = "CRIMES REAIS",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 7,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7016),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1055),
                             Description = "DISTOPIA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 8,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7017),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1056),
                             Description = "ENSAIOS",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 9,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7018),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1057),
                             Description = "FANTASIA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 10,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7020),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1058),
                             Description = "FICÇÃO CIENTÍFICA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 11,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7021),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1060),
                             Description = "FICÇÃO CONTEMPORÂNEA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 12,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7023),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1061),
                             Description = "FICÇÃO FEMININA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 13,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7024),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1062),
                             Description = "FICÇÃO HISTÓRICA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 14,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7026),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1064),
                             Description = "FICÇÃO POLICIAL",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 15,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7027),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1065),
                             Description = "GASTRONOMIA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 16,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7028),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1066),
                             Description = "GÊNEROS DE FICÇÃO",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 17,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7030),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1068),
                             Description = "GÊNEROS DE NÃO FICÇÃO",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 18,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7031),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1070),
                             Description = "GRAPHIC NOVEL",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 19,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7032),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1071),
                             Description = "GUIAS & COMO FAZER ",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 20,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7034),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1072),
                             Description = "HISTÓRIA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 21,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7036),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1074),
                             Description = "HORROR",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 22,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7037),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1075),
                             Description = "HUMANIDADES E CIÊNCIAS SOCIAIS",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 23,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7038),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1077),
                             Description = "HUMOR",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 24,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7040),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1078),
                             Description = "INFANTIL",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 25,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7041),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1079),
                             Description = "LGBTQ+",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 26,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7042),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1080),
                             Description = "MEMÓRIAS E AUTOBIOGRAFIA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 27,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7044),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1081),
                             Description = "NEW ADULT – NOVO ADULTO ",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 28,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7045),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1083),
                             Description = "PATERNIDADE E FAMÍLIA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 29,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7046),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1084),
                             Description = "REALISMO MÁGICO",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 30,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7048),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1085),
                             Description = "RELIGIÃO E ESPIRITUALIDADE",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 31,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7049),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1086),
                             Description = "ROMANCE",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 32,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7051),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1088),
                             Description = "TECNOLOGIA E CIÊNCIA",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 33,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7052),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1089),
                             Description = "THRILLER E SUSPENSE",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 34,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7053),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1090),
                             Description = "VIAJEM",
                             IsDeleted = false
                         },
                         new
                         {
                             Id = 35,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(7055),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(1091),
                             Description = "YOUNG ADULT – JOVEM ADULTO",
                             IsDeleted = false
                         });
@@ -358,7 +358,7 @@ namespace Anotai.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT")
-                        .HasDefaultValue(new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(6669));
+                        .HasDefaultValue(new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(664));
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -371,6 +371,7 @@ namespace Anotai.Data.Migrations
 
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasMaxLength(100)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Password")
@@ -388,7 +389,7 @@ namespace Anotai.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2022, 3, 30, 16, 38, 50, 118, DateTimeKind.Local).AddTicks(6861),
+                            CreatedAt = new DateTime(2022, 4, 2, 11, 30, 37, 150, DateTimeKind.Local).AddTicks(893),
                             Email = "wemasiero@gmail.com",
                             IsDeleted = false,
                             Name = "master",

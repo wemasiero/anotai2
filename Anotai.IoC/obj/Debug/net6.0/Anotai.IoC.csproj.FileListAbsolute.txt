@@ -17,3 +17,5 @@ C:\dev\Anotai\Anotai.IoC\bin\Debug\net6.0\Anotai.Data.dll
 C:\dev\Anotai\Anotai.IoC\bin\Debug\net6.0\Anotai.Domain.dll
 C:\dev\Anotai\Anotai.IoC\bin\Debug\net6.0\Anotai.Domain.pdb
 C:\dev\Anotai\Anotai.IoC\bin\Debug\net6.0\Anotai.Data.pdb
+C:\dev\Anotai\Anotai.IoC\bin\Debug\net6.0\Anotai.Auth.dll
+C:\dev\Anotai\Anotai.IoC\bin\Debug\net6.0\Anotai.Auth.pdb

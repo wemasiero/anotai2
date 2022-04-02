@@ -62,3 +62,13 @@ C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.IoC.dll
 C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.IoC.pdb
 C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\AutoMapper.dll
 C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.Auth.dll
+C:\dev\Anotai\Anotai.API\bin\Debug\net6.0\Anotai.Auth.pdb

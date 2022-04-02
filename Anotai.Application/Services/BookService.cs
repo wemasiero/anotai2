@@ -17,10 +17,10 @@ namespace Anotai.Application.Services
             _mapper = mapper;
         }
 
-        public List<BookViewModel> GetAll()
+        public List<BookViewModel> Get()
         {
             List<BookViewModel> _bookViewModel = new List<BookViewModel>();
-            IEnumerable<Book> _books = _bookRepository.GetAll();
+            IEnumerable<Book> _books = _bookRepository.Get();
             _bookViewModel = _mapper.Map<List<BookViewModel>>(_books);
             return _bookViewModel;
         }
@@ -29,6 +29,70 @@ namespace Anotai.Application.Services
         {
             List<BookViewModel> _bookViewModel = new List<BookViewModel>();
             IEnumerable<Book> _books = _bookRepository.GetById(id);
+            _bookViewModel = _mapper.Map<List<BookViewModel>>(_books);
+            return _bookViewModel;
+        }
+
+        public List<BookViewModel> GetByUserId(int userId)
+        {
+            List<BookViewModel> _bookViewModel = new List<BookViewModel>();
+            IEnumerable<Book> _books = _bookRepository.GetByUserId(userId);
+            _bookViewModel = _mapper.Map<List<BookViewModel>>(_books);
+            return _bookViewModel;
+        }
+
+        public List<BookViewModel> GetByGenderId(int genderId)
+        {
+            List<BookViewModel> _bookViewModel = new List<BookViewModel>();
+            IEnumerable<Book> _books = _bookRepository.GetByGenderId(genderId);
+            _bookViewModel = _mapper.Map<List<BookViewModel>>(_books);
+            return _bookViewModel;
+        }
+
+        public List<BookViewModel> GetByGenderIdUserId(int genderId, int userId)
+        {
+            List<BookViewModel> _bookViewModel = new List<BookViewModel>();
+            IEnumerable<Book> _books = _bookRepository.GetByGenderIdUserId(genderId, userId);
+            _bookViewModel = _mapper.Map<List<BookViewModel>>(_books);
+            return _bookViewModel;
+        }
+
+        public List<BookViewModel> GetByUserIdBookTitle(int userId, string bookTitle)
+        {
+            List<BookViewModel> _bookViewModel = new List<BookViewModel>();
+            IEnumerable<Book> _books = _bookRepository.GetByUserIdBookTitle(userId, bookTitle);
+            _bookViewModel = _mapper.Map<List<BookViewModel>>(_books);
+            return _bookViewModel;
+        }
+
+        public List<BookViewModel> GetByUserIdBookDescription(int userId, string bookDescription)
+        {
+            List<BookViewModel> _bookViewModel = new List<BookViewModel>();
+            IEnumerable<Book> _books = _bookRepository.GetByUserIdBookDescription(userId, bookDescription);
+            _bookViewModel = _mapper.Map<List<BookViewModel>>(_books);
+            return _bookViewModel;
+        }
+
+        public List<BookViewModel> GetByUserIdBookAuthor(int userId, string bookAuthor)
+        {
+            List<BookViewModel> _bookViewModel = new List<BookViewModel>();
+            IEnumerable<Book> _books = _bookRepository.GetByUserIdBookAuthor(userId, bookAuthor);
+            _bookViewModel = _mapper.Map<List<BookViewModel>>(_books);
+            return _bookViewModel;
+        }
+
+        public List<BookViewModel> GetByUserIdBookISBN(int userId, string bookISBN)
+        {
+            List<BookViewModel> _bookViewModel = new List<BookViewModel>();
+            IEnumerable<Book> _books = _bookRepository.GetByUserIdBookISBN(userId, bookISBN);
+            _bookViewModel = _mapper.Map<List<BookViewModel>>(_books);
+            return _bookViewModel;
+        }
+
+        public List<BookViewModel> GetByUserIdGenderDescription(int userId, string genderDescription)
+        {
+            List<BookViewModel> _bookViewModel = new List<BookViewModel>();
+            IEnumerable<Book> _books = _bookRepository.GetByUserIdGenderDescription(userId, genderDescription);
             _bookViewModel = _mapper.Map<List<BookViewModel>>(_books);
             return _bookViewModel;
         }

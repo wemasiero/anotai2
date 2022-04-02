@@ -9,3 +9,4 @@ C:\dev\Anotai\Anotai.Domain\obj\Debug\net6.0\Anotai.Domain.csproj.CoreCompileInp
 C:\dev\Anotai\Anotai.Domain\obj\Debug\net6.0\Anotai.Domain.dll
 C:\dev\Anotai\Anotai.Domain\obj\Debug\net6.0\ref\Anotai.Domain.dll
 C:\dev\Anotai\Anotai.Domain\obj\Debug\net6.0\Anotai.Domain.pdb
+C:\dev\Anotai\Anotai.Domain\obj\Debug\net6.0\Anotai.Domain.csproj.AssemblyReference.cache

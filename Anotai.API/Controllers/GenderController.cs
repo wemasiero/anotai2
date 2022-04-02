@@ -1,11 +1,12 @@
 ﻿using Anotai.Application.Interfaces;
 using Anotai.Application.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Anotai.API.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController, Authorize]
     public class GenderController : ControllerBase
     {
         private readonly IGenderService _genderService;

@@ -20,6 +20,7 @@ namespace Anotai.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new GenderMap());
+            modelBuilder.ApplyConfiguration(new UserMap());
             modelBuilder.ApplyGlobalConfiguration();
             modelBuilder.SeedData();
 

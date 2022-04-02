@@ -1,12 +1,14 @@
 ﻿using Anotai.Application.Interfaces;
 using Anotai.Application.ViewModels;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
+using Template.Auth.Services;
 
 namespace Anotai.API.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
+    [ApiController, Authorize]
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
@@ -17,9 +19,9 @@ namespace Anotai.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAll()
+        public IActionResult Get()
         {
-            return Ok(_userService.GetAll());
+            return Ok(_userService.Get());
         }
 
         [HttpGet("{id}")]
@@ -28,7 +30,7 @@ namespace Anotai.API.Controllers
             return Ok(_userService.GetById(id));
         }
 
-        [HttpPost]
+        [HttpPost, AllowAnonymous]
         public IActionResult Post(UserViewModel userViewModel)
         {
             return Ok(_userService.Post(userViewModel));
@@ -40,10 +42,17 @@ namespace Anotai.API.Controllers
             return Ok(_userService.Put(userViewModel));
         }
 
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        [HttpDelete]
+        public IActionResult Delete()
         {
-            return Ok(_userService.Delete(id));
+            string _userId = TokenService.GetValueFromClaim(HttpContext.User.Identity, ClaimTypes.NameIdentifier);
+            return Ok(_userService.Delete(int.Parse(_userId)));
+        }
+
+        [HttpPost("authenticate"), AllowAnonymous]
+        public IActionResult Authenticate(UserAuthenticateRequestViewModel userViewModel)
+        {
+            return Ok(_userService.Authenticate(userViewModel));
         }
     }
 }

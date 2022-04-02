@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Anotai.Application\Anotai.Application.csproj" />
+    <ProjectReference Include="..\Anotai.Auth\Anotai.Auth.csproj" />
     <ProjectReference Include="..\Anotai.Infra\Anotai.Data.csproj" />
     <ProjectReference Include="..\Anotai.IoC\Anotai.IoC.csproj" />
   </ItemGroup>

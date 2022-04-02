@@ -15,8 +15,8 @@ namespace Anotai.Application.ViewModels
         public DateTime CreatedAt { get; set; } = DateTime.Now;
         public DateTime? UpdatedAt { get; set; }
         public int GenderId { get; set; }
-        public Gender Gender { get; set; }
+        public Gender? Gender { get; set; }
         public int UserId { get; set; }
-        public User User { get; set; }
+        public User? User { get; set; }
     }
 }

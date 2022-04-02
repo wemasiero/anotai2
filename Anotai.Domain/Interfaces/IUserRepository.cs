@@ -4,6 +4,6 @@ namespace Anotai.Domain.Interfaces
 {
     public interface IUserRepository : IRepository<User>
     {
-        IEnumerable<User> GetAll();
+        IEnumerable<User> Get();
     }
 }

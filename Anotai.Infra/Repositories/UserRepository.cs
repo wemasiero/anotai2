@@ -9,7 +9,7 @@ namespace Anotai.Data.Repositories
         public UserRepository(AppDbContext appDbContext)
             : base(appDbContext) { }
 
-        public IEnumerable<User> GetAll()
+        public IEnumerable<User> Get()
         {
             return Query(x => !x.IsDeleted);
         }
