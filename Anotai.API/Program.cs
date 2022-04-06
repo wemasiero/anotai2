@@ -3,7 +3,6 @@ using Anotai.Auth.Models;
 using Anotai.Data.Context;
 using Anotai.IoC;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;

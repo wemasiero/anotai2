@@ -16,11 +16,15 @@ namespace Anotai.Data.Context
         public DbSet<Gender> Genders { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Book> Books { get; set; }
+        public DbSet<Note> Notes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new GenderMap());
             modelBuilder.ApplyConfiguration(new UserMap());
+            modelBuilder.ApplyConfiguration(new BookMap());
+            modelBuilder.ApplyConfiguration(new NoteMap());
+
             modelBuilder.ApplyGlobalConfiguration();
             modelBuilder.SeedData();
 

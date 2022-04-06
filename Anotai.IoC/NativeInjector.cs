@@ -17,12 +17,14 @@ namespace Anotai.IoC
             services.AddScoped<IGenderService, GenderService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IBookService, BookService>();
+            services.AddScoped<INoteService, NoteService>();
             #endregion
 
             #region Repositories
             services.AddScoped<IGenderRepository, GenderRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped<INoteRepository, NoteRepository>();
             #endregion
         }
     }
